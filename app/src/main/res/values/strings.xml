@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">City Notifier</string>
+    <string name="appName">Название приложения</string>
+    <string name="buttonAuth">Войти</string>
+    <string name="buttonRegistration">Зарегистрироваться</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="imageViewLogoDescription">App Logo</string>
+    <string name="registration">Регистрация</string>
+    <string name="yourName">Ваше имя</string>
+    <string name="userAgreement">Я согласен с правилами Приложения</string>
+    <string name="buttonRegistrationUppercase">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="name">name</string>
+    <string name="repeatPassword">Повторите пароль</string>
+    <string name="newPassword">Придумайте пароль</string>
+</resources>
