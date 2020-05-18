@@ -19,4 +19,17 @@
     <string name="warningEmptyPassword">Введите пароль</string>
     <string name="warningUnsuccessfulRgistration">При регистрации что-то пошло не так</string>
     <string name="buttonBackDescription">Назад</string>
+    <string name="menuIconDescription">Меню</string>
+    <string name="reportProblem">СООБЩИТЬ О ПРОБЛЕМЕ</string>
+    <string name="haveAnIdea">ЕСТЬ ИДЕЯ!</string>
+    <string-array name="menu">
+        <item>О ПРИЛОЖЕНИИ</item>
+        <item>МОИ СООБЩЕНИЯ</item>
+        <item>ВСЕ СООБЩЕНИЯ</item>
+        <item>МОИ ИДЕИ</item>
+        <item>ВСЕ ИДЕИ</item>
+        <item>ПОДПИСКИ</item>
+        <item>ПРОФИЛЬ</item>
+        <item>ВЫХОД</item>
+    </string-array>
 </resources>
