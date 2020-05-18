@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
-
     <ImageView
         android:id="@+id/imageViewLogo"
         android:layout_width="100dp"
@@ -101,11 +100,12 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextPasswordRepeat" />
 
     <Button
-        android:id="@+id/buttonSignUp"
+        android:id="@+id/buttonRegister"
         android:layout_width="352dp"
         android:layout_height="70dp"
         android:text="@string/buttonRegistrationUppercase"
         android:textSize="24sp"
+        android:onClick="onClickRegister"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -120,6 +120,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="159dp"
         android:onClick="onClickBackToAuth"
+        android:contentDescription="@string/buttonBackDescription"
         app:layout_constraintBottom_toTopOf="@+id/editTextUsername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"

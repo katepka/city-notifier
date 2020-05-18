@@ -17,4 +17,6 @@
     <string name="warningEnterEmailAndPassword">Введите email и пароль</string>
     <string name="warningEmptyEmail">Введите email</string>
     <string name="warningEmptyPassword">Введите пароль</string>
+    <string name="warningUnsuccessfulRgistration">При регистрации что-то пошло не так</string>
+    <string name="buttonBackDescription">Назад</string>
 </resources>

@@ -42,7 +42,7 @@ public class AuthorizationActivity extends AppCompatActivity {
         if (!email.isEmpty()) {
             if (!password.isEmpty()) {
                 if (checkAuthorization(email, password)) {
-                    Intent intent = new Intent(this, CreateNewActivity.class);
+                    Intent intent = new Intent(this, MainActivity.class);
                     intent.putExtra("email", email);
                     startActivity(intent);
                 } else {
