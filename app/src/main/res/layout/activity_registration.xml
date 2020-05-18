@@ -101,7 +101,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextPasswordRepeat" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSignUp"
         android:layout_width="352dp"
         android:layout_height="70dp"
         android:text="@string/buttonRegistrationUppercase"
@@ -112,4 +112,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxAgreement"
         app:layout_constraintVertical_bias="0.537" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBackToAuth"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="159dp"
+        android:onClick="onClickBackToAuth"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_back" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
