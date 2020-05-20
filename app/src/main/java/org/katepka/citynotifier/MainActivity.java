@@ -23,7 +23,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * Starts AddAdressActivity
+     * @param view
+     */
     public void onClickCreateMessage(View view) {
+        Intent intent = new Intent(this, AddAddressActivity.class);
+        startActivity(intent);
     }
 
     public void onClickCreateIdea(View view) {
