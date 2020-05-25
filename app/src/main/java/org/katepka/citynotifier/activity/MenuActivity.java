@@ -1,8 +1,10 @@
-package org.katepka.citynotifier;
+package org.katepka.citynotifier.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import org.katepka.citynotifier.R;
 
 public class MenuActivity extends AppCompatActivity {
 

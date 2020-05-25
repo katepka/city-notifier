@@ -26,6 +26,8 @@
     <string name="next">ПРОДОЛЖИТЬ</string>
     <string name="creatingMessage">Создание сообщения</string>
     <string name="send">ОТПРАВИТЬ</string>
+    <string name="problemСategory">Категория проблемы</string>
+    <string name="searchCategory">Поиск категории</string>
     <string-array name="menu">
         <item>О ПРИЛОЖЕНИИ</item>
         <item>МОИ СООБЩЕНИЯ</item>
@@ -35,5 +37,22 @@
         <item>ПОДПИСКИ</item>
         <item>ПРОФИЛЬ</item>
         <item>ВЫХОД</item>
+    </string-array>
+    <string-array name="categoryMock">
+        <item>Категория 1</item>
+        <item>Категория 2</item>
+        <item>Категория 3</item>
+        <item>Категория 4</item>
+        <item>Категория 5</item>
+        <item>Категория 6</item>
+        <item>Категория 7</item>
+        <item>Категория 8</item>
+        <item>Категория 9</item>
+        <item>Категория 10</item>
+        <item>Категория 11</item>
+        <item>Категория 12</item>
+        <item>Категория 13</item>
+        <item>Категория 14</item>
+        <item>Категория 15</item>
     </string-array>
 </resources>

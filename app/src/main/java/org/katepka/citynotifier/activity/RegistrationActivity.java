@@ -1,4 +1,4 @@
-package org.katepka.citynotifier;
+package org.katepka.citynotifier.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import org.katepka.citynotifier.R;
 
 public class RegistrationActivity extends AppCompatActivity {
 

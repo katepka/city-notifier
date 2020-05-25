@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddMessageDetailsActivity"></activity>
-        <activity android:name=".AddAddressActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".AuthorizationActivity">
+        <activity android:name=".activity.CategoryListActivity"></activity>
+        <activity android:name=".activity.AddMessageDetailsActivity" />
+        <activity android:name=".activity.AddAddressActivity" />
+        <activity android:name=".activity.MenuActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.AuthorizationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
